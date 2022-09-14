@@ -1,0 +1,35 @@
+#components-layout-demo-responsive .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .site-layout-sub-header-background {
+    background: #fff;
+  }
+  
+  .site-layout-background {
+    background: #fff;
+  }
+  .lsm-logo {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .lsm-logo img{
+    width: 40%;
+  }
+  .header-site-layout-background{
+    background: white !important;
+  }
+  @media screen and (max-width : 990px){
+    /* this media query is written by azher because its globally set */
+  .ant-layout .site-layout{
+    margin-left: 0 !important;
+  }
+}
+.panel_header_main{
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}

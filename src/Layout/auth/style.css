@@ -1,0 +1,173 @@
+    .custom-Login-my-input.ant-input {
+        background: #ffffff;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 5px !important;
+        height: 56.86px;
+    }
+    .floating-password.ant-input-password {
+        background: #ffffff;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 5px !important;
+        height: 56.86px;
+        z-index: 0 !important;
+        border: none;
+    }
+    .custom-Login-mycheckbox.ant-checkbox-wrapper {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px !important;
+        line-height: 170.84%;
+        color: #7c7c7c !important;
+    }
+    .custom-Login-mycheckbox .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: #06bf97 !important;
+        border-color: #06bf97 !important;
+    }
+    .custom-Login-login-btn.ant-btn {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: white;
+        background: #06bf97;
+        border-radius: 3px;
+        width: 100%;
+        height: 45px;
+        outline: none;
+        border: none;
+        transition: 0.2s;
+    }
+    .custom-Login-login-btn.ant-btn:disabled,
+.custom-Login-login-btn.ant-btn[disabled]{
+  background-color: gray !important;
+}
+    .custom-Login-login-btn.ant-btn:hover {
+        color: white;
+        background: #05a381;
+        outline: none;
+        border: none;
+    }
+    .custom-Login-login-btn.ant-btn:focus {
+        color: white;
+        background: #06bf97;
+        outline: none;
+        border: none;
+    }
+    .is-invalid {
+        border: 1px solid red !important;
+    }
+    .floating-password.ant-input-password:focus {
+        z-index: 0 !important;
+    }
+    .floating-password.ant-input-password input.ant-input::placeholder {
+        visibility: hidden !important;
+    }
+    .floating-password.ant-input-password
+        input.ant-input:not(:placeholder-shown) {
+        padding-top: 1.625rem;
+        padding-bottom: 0.625rem;
+    }
+    .ant-input-password.floating-password:focus-within + label.floating-label {
+        opacity: 0.65 !important;
+        transform: scale(0.7) translateY(-0.5rem) translateX(0.15rem) !important;
+    }
+    .password-floating {
+        opacity: 0.65 !important;
+        transform: scale(0.7) translateY(-0.5rem) translateX(0.15rem) !important;
+    }
+    .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+        z-index: 0 !important;
+    }
+.container {
+    display: grid;
+    grid-template-areas:
+        "Area1"
+        "Area2";
+    justify-items: center;
+}
+.col {
+    padding: 0px 12px;
+    grid-area: Area1;
+    margin-top: 79px;
+    min-width: 483px;
+    text-align: center;
+}
+.logo-style{
+    width: 10%;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-control {
+    margin-bottom: 40px;
+}
+.form-control-pass {
+    margin-bottom: 21px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+h5.reg-heading {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 41px;
+    margin: 40px 0px;
+    text-align: center;
+}
+.reset-pass {
+    font-size: 14px;
+    font-weight: normal;
+    color: #06bf97;
+    text-decoration: underline;
+}
+.reset-pass:hover {
+    color: #05a381;
+    text-decoration: underline;
+}
+.have-account {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7c7c7c;
+}
+.reg-now {
+    color: #06bf97;
+    font-weight: 600;
+}
+.reg-now:hover {
+    color: #05a381;
+}
+.text-center {
+    text-align: center;
+}
+.support-link {
+    color: #7c7c7c;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.support-link:hover {
+    color: #7c7c7c;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.support {
+    margin-bottom: 75px;
+    text-align: center;
+}
+.label {
+    margin-bottom: 8px;
+}
+.custom-label-style {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9b9b9b;
+}
