@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
-let BASE_URL = 'https://lsm-backend.herokuapp.com/api/';
+let BASE_URL = 'https://lsm-back-end.herokuapp.com/api/';
 if (process.env.REACT_APP_ENV === 'development') {
-	BASE_URL = 'https://lsm-backend.herokuapp.com/api/';
+	BASE_URL = 'https://lsm-back-end.herokuapp.com/api/';
 }
 
 if (process.env.REACT_APP_ENV === 'staging') {
