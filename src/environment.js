@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
-// let BASE_URL = "https://lsm-backend-production.up.railway.app/api/";
-let BASE_URL = "http://localhost:9000/api/";
+let BASE_URL = "https://lsm-backend-production.up.railway.app/api/";
+// let BASE_URL = "http://localhost:9000/api/";
 if (process.env.REACT_APP_ENV === "development") {
   BASE_URL = BASE_URL;
 }
